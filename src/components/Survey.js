@@ -56,7 +56,7 @@ const Survey = () => {
   useEffect(() => {
     getRecords()
   }, [])
-  console.log(items)
+  //console.log(items)
 
   return (
     <Wrapper className="section">
